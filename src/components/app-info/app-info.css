@@ -1,0 +1,21 @@
+.app-info {
+    position: relative;
+    font-weight: 200; 
+    padding: 25px;
+    background-color: #3d5a80;
+    border-radius: 10px;
+    box-shadow: 20px 20px 30px rgba(0,0,0, .15);
+    color: #fff;
+    background: inherit;
+}
+.app-info:before {
+    z-index: -1;
+    display: block;
+    position: absolute;
+    content: ' ';
+    overflow: hidden;
+    filter: blur(10px);
+    background-size: cover;
+    opacity: 0.25;
+    filter: blur(20px);
+  }
